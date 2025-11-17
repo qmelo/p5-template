@@ -1,13 +1,13 @@
-import p5 from 'p5'
+import p5 from "p5";
 
 const sketch = (p: p5) => {
-  p.setup = () => {
-    p.createCanvas(400, 400)
-  }
+	p.setup = () => {
+		p.createCanvas(400, 400);
+	};
 
-  p.draw = () => {
-    p.background(220)
-  }
-}
+	p.draw = () => {
+		p.background(220);
+	};
+};
 
-new p5(sketch)
+new p5(sketch);
